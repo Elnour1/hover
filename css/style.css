@@ -39,9 +39,11 @@
     -moz-transition: transform 1s ease, opacity 0.5s ease;
     -ms-transition: transform 1s ease, opacity 0.5s ease;
     -o-transition: transform 1s ease, opacity 0.5s ease;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container .cards .card .card-hide h2{
-    margin: 100px 0 21px 0;
     text-transform:uppercase;
 }
 .container .cards .card .card-hide button{
